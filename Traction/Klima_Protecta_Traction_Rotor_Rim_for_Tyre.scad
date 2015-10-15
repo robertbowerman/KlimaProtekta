@@ -1,0 +1,1 @@
+// Klima_Protecta_Traction_Rotor_Rim_for_Tyre
