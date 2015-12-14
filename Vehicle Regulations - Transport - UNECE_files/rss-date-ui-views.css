@@ -1,0 +1,231 @@
+.indented {
+    margin-left: 25px;
+}
+.container-inline-date {
+    clear: both;
+}
+.container-inline-date .form-item {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+.container-inline-date > .form-item {
+    display: inline-block;
+    margin-right: 0.5em;
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+.container-inline-date .form-item .form-item {
+    float: left;
+}
+.container-inline-date .form-item,
+.container-inline-date .form-item input {
+    width: auto;
+}
+.container-inline-date .description {
+    clear: both;
+}
+.container-inline-date .form-item input,
+.container-inline-date .form-item select,
+.container-inline-date .form-item option {
+    margin-right: 5px;
+}
+.container-inline-date .date-spacer {
+    margin-left: -5px;
+}
+.views-right-60 .container-inline-date div {
+    margin: 0;
+    padding: 0;
+}
+.container-inline-date .date-timezone .form-item {
+    clear: both;
+    float: none;
+    width: auto;
+}
+.container-inline-date .date-padding {
+    padding: 10px;
+    float: left;
+}
+.views-exposed-form .container-inline-date .date-padding {
+    padding: 0;
+}
+#calendar_div,
+#calendar_div td,
+#calendar_div th {
+    margin: 0;
+    padding: 0;
+}
+#calendar_div,
+.calendar_control,
+.calendar_links,
+.calendar_header,
+.calendar {
+    border-collapse: separate;
+    margin: 0;
+    width: 185px;
+}
+.calendar td {
+    padding: 0;
+}
+span.date-display-single {}span.date-display-start {}span.date-display-end {}.date-prefix-inline {
+    display: inline-block;
+}
+.date-clear {
+    clear: both;
+    display: block;
+    float: none;
+}
+.date-no-float {
+    clear: both;
+    float: none;
+    width: 98%;
+}
+.date-float {
+    clear: none;
+    float: left;
+    width: auto;
+}
+.date-float .form-type-checkbox {
+    padding-right: 1em;
+}
+.form-type-date-select .form-type-select[class$=hour] {
+    margin-left: .75em;
+}
+.date-container .date-format-delete {
+    float: left;
+    margin-top: 1.8em;
+    margin-left: 1.5em;
+}
+.date-container .date-format-name {
+    float: left;
+}
+.date-container .date-format-type {
+    float: left;
+    padding-left: 10px;
+}
+.date-container .select-container {
+    clear: left;
+    float: left;
+}
+div.date-calendar-day {
+    background: #F3F3F3;
+    border-top: 1px solid #EEE;
+    border-left: 1px solid #EEE;
+    border-right: 1px solid #BBB;
+    border-bottom: 1px solid #BBB;
+    color: #999;
+    float: left;
+    line-height: 1;
+    margin: 6px 10px 0 0;
+    text-align: center;
+    width: 40px;
+}
+div.date-calendar-day span {
+    display: block;
+    text-align: center;
+}
+div.date-calendar-day span.month {
+    background-color: #B5BEBE;
+    color: white;
+    font-size: .9em;
+    padding: 2px;
+    text-transform: uppercase;
+}
+div.date-calendar-day span.day {
+    font-size: 2em;
+    font-weight: bold;
+}
+div.date-calendar-day span.year {
+    font-size: .9em;
+    padding: 2px;
+}
+
+.field .field-label {
+    font-weight: bold;
+}
+.field-label-inline .field-label,
+.field-label-inline .field-items {
+    float: left;
+}
+form .field-multiple-table {
+    margin: 0;
+}
+form .field-multiple-table th.field-label {
+    padding-left: 0;
+}
+form .field-multiple-table td.field-multiple-drag {
+    width: 30px;
+    padding-right: 0;
+}
+form .field-multiple-table td.field-multiple-drag a.tabledrag-handle {
+    padding-right: .5em;
+}
+form .field-add-more-submit {
+    margin: .5em 0 0;
+}
+#edit-mollom-captcha {
+    display: block;
+}
+.dblog-event pre,
+#simpletest-result-form table td {
+    white-space: pre-wrap;
+}
+.node-unpublished {
+    background-color: #fff4f4;
+}
+.preview .node {
+    background-color: #ffffea;
+}
+td.revision-current {
+    background: #ffc;
+}
+
+.search-form {
+    margin-bottom: 1em;
+}
+.search-form input {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.search-results {
+    list-style: none;
+}
+.search-results p {
+    margin-top: 0;
+}
+.search-results .title {
+    font-size: 1.2em;
+}
+.search-results li {
+    margin-bottom: 1em;
+}
+.search-results .search-snippet-info {
+    padding-left: 1em;
+}
+.search-results .search-info {
+    font-size: 0.85em;
+}
+.search-advanced .criterion {
+    float: left;
+    margin-right: 2em;
+}
+.search-advanced .action {
+    float: left;
+    clear: left;
+}
+
+.views-align-left {
+    text-align: left;
+}
+.views-align-right {
+    text-align: right;
+}
+.views-align-center {
+    text-align: center;
+}
+.views-view-grid tbody {
+    border-top: none;
+}
+.view .progress-disabled {
+    float: none;
+}
