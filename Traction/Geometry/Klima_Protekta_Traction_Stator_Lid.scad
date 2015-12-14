@@ -18,7 +18,7 @@ a) Print in nylon as that is stronger and provides a lower friction surface.  Fo
 b) Have the lid snap on, where the snaps are on living hinges, rather than screw on.  This would make it much easier and faster to get the lid on and off. 
 */
 
-include </Users/Robert/GitHub/KlimaProtekta/Traction/Geometry/Klima_Protekta_Traction_Dimensions.scad>;
+include </Users/robertbowerman/GitHub/KlimaProtekta/Traction/Geometry/Klima_Protekta_Traction_Dimensions.scad>;
 
 // Feature 1: Flat cylinder with rounded edges.  
 

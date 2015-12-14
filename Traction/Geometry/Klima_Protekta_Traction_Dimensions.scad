@@ -2,17 +2,15 @@
 
 This file is to be "include"d into all other traction geometry files.  
 
-include <KlimaProtekta/Traction/Geometry/Klima_Protekta_Traction_Dimensions.scad>;
+include </Users/robertbowerman/GitHub/KlimaProtekta/Traction/Geometry/Klima_Protekta_Traction_Dimensions.scad>;
 
 One advantage of this approach is that it enforces consistency between parts of the car.  
 
 Remember: Calculate Everything (avoid endless tweaking) 
-
-
 */
 
 // One unit is one millimeter here
-permanentMagnetWidth = 10; // generally width is X (but magnets are rotated here)
+permanentMagnetWidth = 10; // generally width is X (but magnets are rotated here around the circle)
 permanentMagnetDepth = 10; // generally depth is Y (but magnets are rotated here)
 permanentMagnetHeight = 10; // generally height is Z (but magnets are rotated here)
 magnetsPerCircle = 64; 
