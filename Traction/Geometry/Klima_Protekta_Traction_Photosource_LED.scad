@@ -1,4 +1,12 @@
 /* Component - photosource - dimensions go in here to be used in constructive geometry.  Measurements made with digital vernier calipers and are in mm. 
+
+Pin Out to test
+Connect one end of resistor to pin 13.   Resistor value can be between 220 ohm and up to 1k ohm.  We use 330 ohm Orange, Orange, Brown, Gold.  
+Connect other end of resistor to LED positive ie anode ie long leg
+Connect LED negative or cathode to ground ie short leg.  
+
+
+
 */
 
 photosource_body_height = 5.00; // excluding dome
@@ -13,7 +21,8 @@ photosource_wire_offset = 2.0;
 
 photosource_unit_price = 2.00; // Pounds Sterling
 
-translatecolor("blue")sphere(2.5);
+translate([0,0,photosource_body_height])
+color("blue")sphere(2.5, $fn=500);
 
 color("yellow")cylinder(photosource_body_height,photosource_body_diameter/2,photosource_body_diameter/2, $fn=500);
 translate([0,0,-photosource_hat_rim_height])

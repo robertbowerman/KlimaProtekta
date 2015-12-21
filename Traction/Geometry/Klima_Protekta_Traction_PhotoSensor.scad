@@ -2,32 +2,25 @@
 
 These are Photodiodes.  Price for 15 was £2.27, with free UK delivery.  Came from China.  
 
-Long leg of LED is the positive leg, called the anode (little nose), shown in circuit diagram as the base of the arrow
-Short leg of LED is the negative leg, called the cathode (larger flag), shown in circuit diagram as the flat bar at the point of the arrow.
+Long leg of LED is the positive leg, called the anode (little nose), shown in circuit diagrams as the base of the arrow in the diode symbol. 
+Short leg of LED is the negative leg, called the cathode (larger flag), shown in circuit diagram as the flat bar at the point of the arrow in the diode symbol.
 
 Form a potential divider between +5V and ground where:
-1) 1M ohm resistor from +5V to cathode [short leg] of photodiode  (brown black green gold)
+1) 1M ohm resistor from +5V to cathode [short leg] of photodiode  (resistor colour code: brown black green gold)
 2) anode of photodiode to ground
 3) where resistor meets photodiode (cathode) attach to Arduino. 
       A) start with analogue in and report result to console. Called "Read Analogue Voltage".  Note that the sketch converts the analog reading (which goes from 0 - 1023) to a voltage (0 - 5V) by multiplying the sensor value by 5/1023
-      ----> really bright gives zero volts
-      ----> night time room light gives 0.12 volts
-      ----> put a cover on it, goes to 4.81 volts.
+      ----> really bright light shining on the photodiode gives zero volts (I've proven these values)
+      ----> night time room electric ceiling light gives 0.12 volts
+      ----> put a cover on it like a pen cap to shut out the light, goes to 4.81 volts.
       B) When coupled with a LED under a cover (pen cap covers both LED and photosensor)
       ---> LED off is 4.4 volts
       ---> LED on is 0.7 volts
       C) Digital Read, 
       ---> in ambient room light, or next to a bright LED its zero
       ---> under a pen cover its in darkness and goes to 1
-      D) Could use a comparator, but just doing this as a digital input read appears to be fine 
-      E) test again with Grays disk and Tower of Light
-
-
-
-?? to 
-Connect one end of resistor to pin 13.   Resistor value can be between 220 ohm and up to 1k ohm.  We use 330 ohm Orange, Orange, Brown, Gold.  
-Connect other end of resistor to LED positive ie anode ie long leg
-Connect LED negative or cathode to ground ie short leg from ???
+      D) Will use a comparator, but just doing this as a digital input read appears to be fine 
+      E) test again with actual 3D printed Grays disk and Tower of Light.  Adjust resistors to get good reliable repeatable binary values in to Arduino. 
 
 
 Weight 4 grams. 
