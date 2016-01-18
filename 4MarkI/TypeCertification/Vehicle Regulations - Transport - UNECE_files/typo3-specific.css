@@ -1,0 +1,192 @@
+/* TYPO3 Specific styles and css styles for T3 RTE*/
+
+div.csc-textpic-intext-right div.csc-textpic-imagewrap,div.csc-textpic-intext-right-nowrap div.csc-textpic-imagewrap {
+/* margin-right:32px; */
+}
+
+div.csc-textpic-intext-right-nowrap div.csc-textpic-imagewrap {
+margin-right:10px;
+}
+
+div.csc-textpic-intext-left-nowrap div.csc-textpic-text {
+margin-left:20px;
+}
+
+/* style adjustment for TEXT PIC element */
+div.csc-textpic-above {
+padding-left: 6%;
+}
+div.csc-textpic-below {
+padding-left: 6%;
+}
+
+/* styles for adjust image gallery */
+#content .csc-textpic-imagecolumn ul li {
+margin-left:10px;
+}
+
+div.csc-textpic-center {
+margin-left:-6%;    
+}
+
+/* Contact us form */
+
+#mailform {
+margin:.5em 1em
+}
+
+#mailform .csc-mailform-field {
+margin:3px auto; padding:2px 3px; border:1px solid #fff;
+}
+
+#mailform label {
+width:12em; display:inline-block;
+}
+
+#mailform input:hover, #content #mailform input:focus {
+background-color:#ffd;
+}
+
+#mailform .csc-mailform-field textarea {
+max-width: 650px;
+}
+
+/* RTE */
+
+.align-center {
+text-align:center;
+}
+
+.align-left {
+text-align:left;
+}
+
+.align-right {
+text-align:right;
+}
+
+.align-justify {
+text-align:justify;
+}
+
+.toleft {
+float:left;
+clear:left;
+}
+
+.toright {
+float:right;
+}
+
+p img.left,.toleft img {
+margin:0;
+padding:0;
+border:0;
+}
+
+p img.right,.toright img {
+margin:0 0 0 .75em;
+}
+
+.center {
+margin:0 auto;
+}
+
+.normalheight {
+line-height:18px;
+}
+
+.clear {
+clear:left;
+}
+
+.alignleft {
+float:left;
+}
+
+.thirty_percent {
+width:30%;
+}
+
+.fourty_percent {
+width:40%;
+}
+
+.fifty_percent {
+width:50%;
+}
+
+.sixty_percent {
+width:60%;
+}
+
+.seventy_percent {
+width:70%;
+}
+
+.indent {
+padding-left:20px;
+}
+
+.centered {
+margin:0 auto;
+text-align:center;
+}
+
+.underline {
+text-decoration:underline;
+}
+
+.strike {
+text-decoration:line-through;
+}
+
+.green {
+color:#093;
+}
+
+.orange {
+color:#F60;
+}
+
+.ff8080 {
+color:#FF8080;
+}
+
+.bold {
+font-weight:700;
+}
+
+.italic {
+font-style:italic;
+}
+
+.red {
+color:red;
+}
+
+.background_E2F1FF td {
+background-color:#E2F1FF;
+}
+
+.background_E2F1FF td p {
+color:#253B74;
+}
+
+.background_304F8E {
+background-color:#304F8E;
+color:#FFF;
+}
+
+/* Color for text */
+.txtRed {
+color:#600;
+}
+
+.txtBlue {
+color:#006;
+}
+
+.txtGreen {
+color:#060;
+}

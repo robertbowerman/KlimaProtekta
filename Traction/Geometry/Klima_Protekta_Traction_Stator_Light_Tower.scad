@@ -1,1 +1,0 @@
-// Klima_Protecta_Traction_Stator_Light_Tower

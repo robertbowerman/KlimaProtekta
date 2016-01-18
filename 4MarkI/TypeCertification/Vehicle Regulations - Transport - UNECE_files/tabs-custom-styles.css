@@ -1,0 +1,126 @@
+/*
+* jQuery UI CSS Framework
+* Copyright (c) 2010 AUTHORS.txt (http://jqueryui.com/about)
+* Dual licensed under the MIT (MIT-LICENSE.txt) and GPL (GPL-LICENSE.txt) licenses.
+*/
+
+/* Layout helpers
+----------------------------------*/
+
+#block-system-main .tx-jfmulticontent-pi1 li a
+{
+    background: none;
+}
+#block-system-main .tx-jfmulticontent-pi1
+{
+	margin:0px auto;
+	padding:20px 0px 10px;
+	width:95%;
+}
+
+#block-system-main .tx-jfmulticontent-pi1 ul.ui-tabs-nav
+{
+	margin:0px;
+	padding:0px;
+}
+
+#block-system-main .tx-jfmulticontent-pi1 .ui-tabs-nav li a
+{
+	color:#333;
+	padding:2px;
+	text-decoration:none;
+}
+
+#block-system-main .tx-jfmulticontent-pi1 .ui-tabs-panel
+{ 
+	clear:both;
+	border:1px solid black;
+	background:white;
+	z-index:2;
+	position:relative;
+	top:-2px;
+	color:WindowText;
+	padding:0px;
+	width:99%;
+}
+
+#block-system-main .tx-jfmulticontent-pi1 .ui-tabs .ui-tabs-nav li 
+{ 
+	font-weight:bold ;
+	cursor: Default;
+	display: inline;
+	margin: 1px -1px 1px 2px;
+	float: left;
+	padding: 2px 5px 3px 5px;
+	background: #F3F4F9;/ActiveBorder;/
+	border: 1px solid;
+	border-radius: 0;
+	border-color: black black white black;
+	border-bottom: 0;
+	z-index: 1;
+	white-space: nowrap;
+	position: relative;
+	top: 0;
+}
+
+#block-system-main .tx-jfmulticontent-pi1 li.ui-tabs-active.ui-state-active,
+#block-system-main .tx-jfmulticontent-pi1 .ui-tabs .ui-tabs-nav li.ui-tabs-selected 
+{
+	background: white !important;
+	border: 1px solid black;
+	border-bottom-color: white !important;
+	z-index: 3;
+	padding: 2px 6px 4px 6px;
+	margin: 1px -3px -3px 0px;
+	top: -2px;
+}
+
+#block-system-main .tx-jfmulticontent-pi1 .ui-tabs-hide
+{
+	display:none;
+}
+
+#block-system-main .tx-jfmulticontent-pi1 .ui-tabs .ui-tabs-nav .ui-state-hover
+{
+	background:none repeat scroll 0 0 #B4CAFF;
+}
+
+#block-system-main .tx-jfmulticontent-pi1 .ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+#block-system-main .tx-jfmulticontent-pi1 .ui-tabs-nav li a
+{
+	padding:0;
+	font-size: 80%;
+}
+#block-system-main .tx-jfmulticontent-pi1 .ui-tabs {
+	background: none;
+	border: none;
+}
+#block-system-main .tx-jfmulticontent-pi1 .ui-tabs-content
+{
+	height:auto !important;
+	padding-left:5px;
+}
+#block-system-main .tx-jfmulticontent-pi1 .ui-widget-header
+{
+	border: none;
+	background: none;
+	padding-left:5px;
+
+}
+#block-system-main .tx-jfmulticontent-pi1 .ui-tabs-header a 
+{
+	color:#672B05;
+	text-decoration:none;
+}
+#block-system-main .tx-jfmulticontent-pi1 h3.ui-state-active
+{
+	background-color:#EEEEEE;
+}
+
+.tx-jfmulticontent-pi1 div.ui-tabs-panel {
+	height: inherit !important;
+}
+
+.tx-jfmulticontent-pi1 p {
+	padding: 0 0.5em;
+}

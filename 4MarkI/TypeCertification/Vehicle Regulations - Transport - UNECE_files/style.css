@@ -1,0 +1,12 @@
+.tx-forthcomingevents-pi1 span.meeting_title
+{
+	font-weight:bold;
+}
+
+.tx-forthcomingevents-pi1 a
+{
+	text-decoration:none;
+}
+.fcm_venue {
+    color: #883B33;
+}
