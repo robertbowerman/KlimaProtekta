@@ -1,8 +1,8 @@
 // whole car
 
 
-car_length = 3500.0; 
-car_width = 1100.0; // mm 1.1m
+car_length = 4000.0; 
+car_width = 1080.0; // mm 1.1m
 car_waist_to_base = 200.0; // mm
 car_wasit_to_top = 900.0; // mm
 twelve_foot_lane = 12 * 12 * 25.4; //mm
