@@ -1,4 +1,4 @@
-/* This file contains the key dimensions of various aspects of the Battery subsystem.  Change it in one place and everything that is affected by that change is recomputed to be correct. 
+/* This file contains the key dimensions of various aspects of the Battery subsystem.  Change it in one place and everything that is affected by that change is recomputed to be correct.  It has no display, on purpose. 
 
 This file is to be "include"d into all other Battery geometry files.  
 
@@ -7,7 +7,6 @@ include <KlimaProtekta/Battery/Geometry/Klima_Protekta_Battery_Dimensions.scad>;
 One advantage of this approach is that it enforces consistency between parts of the car.  
 
 Remember: Calculate Everything (avoid endless tweaking) 
-
 
 */
 
